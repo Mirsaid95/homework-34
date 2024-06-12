@@ -1,0 +1,31 @@
+.header{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    box-shadow: 2px 2xp 2px black;
+
+    &__nav{
+        display: flex;
+        gap: 20px;
+    }
+
+    &__nav-links{
+        display: flex;
+        gap: 20px;
+        font-weight: 500;
+    }
+    &__link{
+        color: black
+    }
+}
+
+@media (min-width: 992px){
+    .header{
+        padding: 20px 80px;
+
+        &__link{
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+}
