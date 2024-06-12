@@ -489,9 +489,15 @@ body {
   }
   .footer__right {
     width: 30%;
+    height: 200px;
   }
   .footer__list {
     font-size: 14px;
+  }
+  .footer__left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 }
 @media (min-width: 1012px) {
@@ -507,8 +513,11 @@ body {
   .footer__right {
     width: 30%;
   }
+  .footer__sign {
+    font-size: 24px;
+  }
   .footer__list {
-    font-size: 18px;
+    font-size: 16px;
   }
   .footer__span {
     position: absolute;
